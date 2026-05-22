@@ -1,0 +1,24 @@
+[WRK 0] started: frames 1..2632 (2632 total)
+[WRK 0] Encoding frames 1–2632 → segment_00.mp4
+[WRK 0] Done encoding. Posting semaphore.
+[WRK 3] started: frames 7895..10525 (2631 total)
+[WRK 3] Encoding frames 7895–10525 → segment_03.mp4
+[WRK 3] Done encoding. Posting semaphore.
+[WRK 1] started: frames 2633..5263 (2631 total)
+[WRK 1] Encoding frames 2633–5263 → segment_01.mp4
+[WRK 1] Done encoding. Posting semaphore.
+[WRK 2] started: frames 5264..7894 (2631 total)
+[WRK 2] Encoding frames 5264–7894 → segment_02.mp4
+[WRK 2] Done encoding. Posting semaphore.
+[ORC] Total frames: 10525, workers: 4
+[ORC] Worker 0 exited cleanly.
+[ORC] Worker 3 exited cleanly.
+[ORC] Worker 1 exited cleanly.
+[ORC] Worker 2 exited cleanly.
+[ORC] Semaphore 0 cleared.
+[ORC] Semaphore 1 cleared.
+[ORC] Semaphore 2 cleared.
+[ORC] Semaphore 3 cleared.
+[ORC] $ ffmpeg -y -f concat -safe 0 -i segments/concat.txt -c copy output_final.mp4 > /dev/null 2>&1
+[ORC] Merge complete → output_final.mp4
+[ORC] Pipeline complete.
