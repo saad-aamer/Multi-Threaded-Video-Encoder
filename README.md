@@ -125,17 +125,6 @@ make clean
 
 ---
 
-## Team Members
-
-Developed for the **Operating Systems** course at FAST-NUCES:
-
-| Name | Student ID |
-| :--- | :--- |
-| Faraz Ahmed | 24k0942 |
-| Saad Aamer | 23k0921 |
-| Muhammed Talha Aamir | 24k0729 |
-
----
 
 ## License and Academic Integrity
 
